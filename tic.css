@@ -1,0 +1,111 @@
+h1 {
+	color: rgb(254, 112, 254);
+	margin-bottom: -5px;
+}
+p {
+	margin-bottom: -10px;
+}
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row {
+	display: flex;
+}
+.cell {
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+}
+.cell:active {
+	outline: none;
+}
+#b1{
+	border-bottom: 1px solid rgb(40, 224, 19);
+	border-right: 1px solid rgb(40, 224, 19);
+}
+
+#b2 {
+	border-bottom: 1px solid rgb(95, 28, 28);
+	border-right: 1px solid rgb(95, 28, 28);
+	border-left: 1px solid rgb(95, 28, 28);
+}
+
+#b3 {
+	border-bottom: 1px solid rgb(66, 60, 130);
+	border-left: 1px solid rgb(66, 60, 130);
+}
+
+#b4 {
+	border-top: 1px solid rgb(155, 10, 10);
+	border-bottom: 1px solid rgb(141, 219, 67);
+	border-right: 1px solid rgb(36, 178, 31);
+}
+	
+#b5 {
+	border: 1px solid rgb(21, 189, 158);
+}
+
+#b6 {
+	border-top: 1px solid rgb(87, 45, 45);
+	border-bottom: 1px solid rgb(16, 171, 192);
+	border-left: 1px solid rgb(40, 23, 23);
+}
+
+#b7 {
+	border-top: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(169, 66, 188);
+}
+
+#b8 {
+	border-top: 1px solid rgb(74, 24, 174);
+	border-right: 1px solid rgb(71, 7, 72);
+	border-left: 1px solid rgb(177, 220, 22);
+}
+
+#b9 {
+	border-top: 1px solid rgb(164, 22, 53);
+	border-left: 1px solid rgb(56, 53, 102);
+}
+
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid rgb(113, 14, 100);
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: rgb(157, 108, 108);
+	color: rgb(77, 8, 60);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: rgb(49, 9, 37);
+	font-size: 20px;
+}
+
+
+#main {
+	text-align: center;
+}
+#ins {
+	font-family: Verdana,Tahoma, sans-serif;
+	color: rgb(39, 234, 224);
+}
+body{
+    background-color: rgb(36, 49, 106);
+}
